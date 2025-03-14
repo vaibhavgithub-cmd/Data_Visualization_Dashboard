@@ -1,0 +1,8 @@
+body {
+  margin: 200px 200px 200px 200px;
+  font-size: medium;
+  color: white;
+  background: rgba(33, 33, 33, 0.2);
+
+  align-items: center;
+}

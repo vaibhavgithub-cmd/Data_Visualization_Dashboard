@@ -1,0 +1,69 @@
+{
+  "name": "dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/material": "^5.10.15",
+    "@nivo/geo": "^0.80.0",
+    "@progress/kendo-data-query": "^1.6.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "apexcharts": "^3.36.3",
+    "axios": "^0.24.0",
+    "bootstrap": "^5.2.3",
+    "chart.js": "^4.0.1",
+    "cors": "^2.8.5",
+    "d3": "^7.6.1",
+    "express": "^4.18.2",
+    "fusioncharts": "^3.19.0",
+    "jquery": "^3.6.1",
+    "mongodb": "^4.12.0",
+    "node": "^19.1.0",
+    "nodemon": "^2.0.20",
+    "react": "^18.2.0",
+    "react-apexcharts": "^1.4.0",
+    "react-chartjs-2": "^5.0.1",
+    "react-d3": "^0.4.0",
+    "react-dom": "^18.2.0",
+    "react-google-charts": "^4.0.0",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^2.1.4",
+    "world-atlas": "^2.0.2"
+  },
+  "scripts": {
+    "server": "nodemon server.js",
+    "start": "react-scripts start",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "build": "webpack -d && copy src\\index.html dist\\index.html /y && webpack-dev-server --content-base src --inline --port 3000"
+  },
+  "proxy": "http://localhost:3000",
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "mongoose.js",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "react-scripts": "^5.0.1"
+  }
+}
